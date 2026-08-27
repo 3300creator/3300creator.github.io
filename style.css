@@ -14,15 +14,15 @@ body {
 /* ------------------------------
    ヘッダー
 ------------------------------ */
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 24px 8%;
+    padding: 28px 6%;
 
     background-color: #ffffff;
+
     border-bottom: 1px solid #dddddd;
 }
 
