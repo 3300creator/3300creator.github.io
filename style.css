@@ -1,4 +1,4 @@
-/* ------------------------------
+⁸/* ------------------------------
    基本設定
 ------------------------------ */
 
@@ -127,10 +127,10 @@ main {
 }
 
 
-.category {
+..category {
     display: block;
 
-    padding: 32px;
+    padding: 36px;
 
     background-color: #ffffff;
 
@@ -139,29 +139,45 @@ main {
     color: #333333;
     text-decoration: none;
 
-    transition: 0.2s;
+    transition: transform 0.2s ease,
+                border-color 0.2s ease;
 }
 
 
 .category:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
 
     border-color: #aaaaaa;
 }
 
 
-.category h3 {
-    margin-top: 0;
+.category-number {
+    display: block;
 
-    font-size: 22px;
-    font-weight: 500;
+    margin-bottom: 28px;
+
+    color: #999999;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.category h3 {
+    margin: 0;
+
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 
 .category p {
-    margin-bottom: 0;
+    margin: 12px 0 0;
 
     color: #777777;
+
+    font-size: 14px;
 }
 
 
