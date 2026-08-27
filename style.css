@@ -28,18 +28,21 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 
 /* ナビゲーション */
 
 nav a {
-    margin-left: 24px;
+    margin-left: 28px;
 
-    color: #555555;
+    color: #666666;
+    font-size: 14px;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 nav a:hover {
