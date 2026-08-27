@@ -38,7 +38,6 @@ header h1 {
 
 nav a {
     margin-left: 28px;
-
     color: #666666;
     font-size: 14px;
     text-decoration: none;
@@ -48,62 +47,40 @@ nav a {
 nav a:hover {
     color: #000000;
 }
-
-
 /* ------------------------------
    メイン
 ------------------------------ */
-
 main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 8%;
 }
-
-
 /* ------------------------------
    ヒーロー
 ------------------------------ */
-
 .hero {
     padding: 150px 0 130px;
-
     text-align: center;
 }
-
-
 .hero-label {
     margin: 0 0 24px;
-
     color: #888888;
-
     font-size: 12px;
     letter-spacing: 4px;
 }
-
-
 .hero h2 {
     margin: 0;
-
     color: #222222;
-
     font-size: 56px;
     font-weight: 400;
-
     line-height: 1.4;
 }
-
-
 .hero-description {
     margin-top: 28px;
-
     color: #888888;
-
     font-size: 14px;
     letter-spacing: 1px;
 }
-
-
 /* ------------------------------
    カテゴリー
 ------------------------------ */
@@ -111,110 +88,88 @@ main {
 .categories {
     padding: 60px 0;
 }
-
 .categories h2 {
     font-size: 28px;
     font-weight: 400;
 }
-
-
 .category-grid {
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
     gap: 20px;
 }
-
-
 .category {
     display: block;
-
     padding: 36px;
-
     background-color: #ffffff;
-
     border: 1px solid #dddddd;
-
     color: #333333;
     text-decoration: none;
-
-    transition: transform 0.2s ease,
-                border-color 0.2s ease;
+    transition: transform 0.8s ease,
+                border-color 0.5s ease;
 }
-
-
 .category:hover {
     transform: translateY(-4px);
-
     border-color: #aaaaaa;
 }
-
-
 .category-number {
     display: block;
-
     margin-bottom: 28px;
-
     color: #999999;
-
     font-size: 12px;
     letter-spacing: 2px;
 }
-
-
 .category h3 {
     margin: 0;
-
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 1px;
 }
-
-
 .category p {
     margin: 12px 0 0;
-
     color: #777777;
-
     font-size: 14px;
 }
-
 
 /* ------------------------------
    About
 ------------------------------ */
-
 .about {
-    padding: 80px 0;
     max-width: 700px;
+    margin: 0 auto;
+    padding: 120px 0;
 }
-
+.section-label {
+    margin: 0 0 24px;
+    color: #888888;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
 .about h2 {
-    font-size: 28px;
+    margin: 0 0 40px;
+    color: #222222;
+    font-size: 40px;
     font-weight: 400;
+    line-height: 1.5;
 }
-
-
+.about-text {
+    margin: 0 0 20px;
+    color: #666666;
+    font-size: 15px;
+    line-height: 2;
+}
 /* ------------------------------
    フッター
 ------------------------------ */
-
 footer {
     margin-top: 80px;
     padding: 40px 8%;
-
     background-color: #ffffff;
-
     border-top: 1px solid #dddddd;
-
     color: #777777;
     text-align: center;
 }
-
 footer a {
     margin: 0 10px;
-
     color: #777777;
     text-decoration: none;
 }
@@ -226,28 +181,29 @@ footer a {
     header {
         flex-direction: column;
         align-items: flex-start;
-
         padding: 20px 6%;
     }
     nav {
         margin-top: 12px;
     }
-
     nav a {
         margin-left: 0;
         margin-right: 20px;
     }
-
     .hero {
         padding: 80px 0;
     }
-
     .hero h2 {
         font-size: 36px;
+        line-height: 1.5;
     }
-
     .category-grid {
         grid-template-columns: 1fr;
     }
-
+   .about {
+        padding: 80px 0;
+    }
+    .about h2 {
+        font-size: 32px;
+    }
 }
