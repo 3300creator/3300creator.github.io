@@ -174,6 +174,80 @@ footer a {
     text-decoration: none;
 }
 /* ------------------------------
+   Page Header
+------------------------------ */
+.page-header {
+    padding: 100px 0 60px;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.page-header p:not(.section-label) {
+    margin-top: 12px;
+    color: #777777;
+    font-size: 15px;
+}
+/* ------------------------------
+   Content
+------------------------------ */
+.content {
+    padding: 20px 0 100px;
+}
+
+.post-card {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 36px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-3px);
+    border-color: #aaaaaa;
+}
+
+.post-number {
+    color: #999999;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.post-date {
+    margin: 20px 0 8px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.post-card h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.post-card p:not(.post-date) {
+    margin: 12px 0 20px;
+    color: #777777;
+    font-size: 14px;
+}
+
+.post-card a {
+    color: #333333;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.post-card a:hover {
+    text-decoration: underline;
+}
+/* ------------------------------
    スマートフォン
 ------------------------------ */
 
@@ -206,4 +280,15 @@ footer a {
     .about h2 {
         font-size: 32px;
     }
+   .post-card {
+    padding: 28px;
+}
+
+.page-header {
+    padding: 70px 0 40px;
+}
+
+.page-header h2 {
+    font-size: 40px;
+}
 }
