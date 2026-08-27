@@ -1,1 +1,184 @@
+/* ------------------------------
+   基本設定
+------------------------------ */
 
+body {
+    margin: 0;
+    background-color: #f5f5f3;
+    color: #333333;
+    font-family: Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    line-height: 1.8;
+}
+
+
+/* ------------------------------
+   ヘッダー
+------------------------------ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 8%;
+
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+/* ナビゲーション */
+
+nav a {
+    margin-left: 24px;
+
+    color: #555555;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+
+/* ------------------------------
+   メイン
+------------------------------ */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+
+
+/* ------------------------------
+   ヒーロー
+------------------------------ */
+
+.hero {
+    padding: 120px 0;
+
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    margin-top: 16px;
+
+    color: #777777;
+    font-size: 18px;
+}
+
+
+/* ------------------------------
+   カテゴリー
+------------------------------ */
+
+.categories {
+    padding: 60px 0;
+}
+
+.categories h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+.category-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+.category {
+    display: block;
+
+    padding: 32px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #dddddd;
+
+    color: #333333;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+
+.category:hover {
+    transform: translateY(-3px);
+
+    border-color: #aaaaaa;
+}
+
+
+.category h3 {
+    margin-top: 0;
+
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.category p {
+    margin-bottom: 0;
+
+    color: #777777;
+}
+
+
+/* ------------------------------
+   About
+------------------------------ */
+
+.about {
+    padding: 80px 0;
+    max-width: 700px;
+}
+
+.about h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+/* ------------------------------
+   フッター
+------------------------------ */
+
+footer {
+    margin-top: 80px;
+    padding: 40px 8%;
+
+    background-color: #ffffff;
+
+    border-top: 1px solid #dddddd;
+
+    color: #777777;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+
+    color: #777777;
+    text-decoration: none;
+}
