@@ -289,6 +289,32 @@ footer a {
     line-height: 2.2;
 }
 /* ------------------------------
+   About Page
+------------------------------ */
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.about-page + .about-page {
+    border-top: 1px solid #dddddd;
+}
+.about-page h3 {
+    margin: 0 0 24px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.about-page p:not(.section-label) {
+    margin: 0 0 24px;
+    color: #666666;
+    font-size: 15px;
+    line-height: 2.2;
+}
+.about-page p:last-child {
+    margin-bottom: 0;
+}
+/* ------------------------------
    Post
 ------------------------------ */
 .post {
@@ -410,6 +436,12 @@ footer a {
         padding-top: 40px;
     }
     .about-category h3 {
+        font-size: 24px;
+    }
+       .about-page {
+        padding: 40px 0;
+    }
+    .about-page h3 {
         font-size: 24px;
     }
 }
