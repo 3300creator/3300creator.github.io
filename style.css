@@ -360,6 +360,40 @@ footer a {
     line-height: 2;
 }
 /* ------------------------------
+   Privacy Policy
+------------------------------ */
+.policy-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0 120px;
+}
+.policy-section {
+    padding: 50px 0;
+    border-bottom: 1px solid #dddddd;
+}
+.policy-section:first-child {
+    padding-top: 20px;
+}
+.policy-section h3 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.policy-section p {
+    margin: 0 0 20px;
+    color: #666666;
+    font-size: 15px;
+    line-height: 2.2;
+}
+.policy-section p:last-child {
+    margin-bottom: 0;
+}
+.policy-date {
+    margin: 40px 0 0;
+    color: #888888;
+    font-size: 13px;
+}
+/* ------------------------------
    Post
 ------------------------------ */
 .post {
@@ -497,5 +531,14 @@ footer a {
     }
     .contact-box a {
         font-size: 16px;
+    }
+       .policy-page {
+        padding: 20px 0 80px;
+    }
+    .policy-section {
+        padding: 40px 0;
+    }
+    .policy-section h3 {
+        font-size: 22px;
     }
 }
