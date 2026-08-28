@@ -359,3 +359,6 @@ footer a {
        font-size: 15px;
        line-height: 2;
    }
+body {
+    background-color: red !important;
+}
