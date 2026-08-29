@@ -454,7 +454,10 @@ footer a {
    Post Link
 ------------------------------ */
 .post-link {
+    display: flex;
+    gap: 12px;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 .post-link a {
     display: inline-block;
