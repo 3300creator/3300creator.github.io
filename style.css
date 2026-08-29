@@ -451,6 +451,25 @@ footer a {
     color: #000000;
 }
 /* ------------------------------
+   Post Link
+------------------------------ */
+.post-link {
+    margin-top: 40px;
+}
+.post-link a {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 1px solid #cccccc;
+    color: #555555;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.post-link a:hover {
+    border-color: #555555;
+    color: #000000;
+}
+/* ------------------------------
    スマートフォン
 ------------------------------ */
 
