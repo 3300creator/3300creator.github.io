@@ -257,6 +257,14 @@ footer a {
     display: block;
     width: fit-content;
     margin-top: 12px;
+    color: #555555;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.article-nav a:hover {
+    color: #000000;
+    text-decoration: underline;
 }
 /* ------------------------------
    Adult
