@@ -246,6 +246,10 @@ footer a {
 .post-card a:hover {
     text-decoration: underline;
 }
+.article-nav a {
+    display: block;
+    margin-top: 10px;
+}
 /* ------------------------------
    Adult
 ------------------------------ */
@@ -473,10 +477,7 @@ footer a {
     border-color: #555555;
     color: #000000;
 }
-.article-nav a {
-    display: block;
-    margin-top: 10px;
-}
+
 /* ------------------------------
    Video
 ------------------------------ */
