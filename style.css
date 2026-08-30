@@ -450,6 +450,7 @@ footer a {
 .post-back a:hover {
     color: #000000;
 }
+
 /* ------------------------------
    Post Link
 ------------------------------ */
@@ -471,6 +472,10 @@ footer a {
 .post-link a:hover {
     border-color: #555555;
     color: #000000;
+}
+.article-nav a {
+    display: block;
+    margin-top: 10px;
 }
 /* ------------------------------
    Video
