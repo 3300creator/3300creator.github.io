@@ -246,9 +246,17 @@ footer a {
 .post-card a:hover {
     text-decoration: underline;
 }
+/* ------------------------------
+   Article Navigation
+------------------------------ */
+.article-nav {
+    margin-top: 40px;
+}
+
 .article-nav a {
     display: block;
-    margin-top: 10px;
+    width: fit-content;
+    margin-top: 12px;
 }
 /* ------------------------------
    Adult
